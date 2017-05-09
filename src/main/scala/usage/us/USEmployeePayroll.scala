@@ -1,4 +1,4 @@
-package usage
+package usage.us
 
 import solution.USPayrollSystem
 
@@ -7,7 +7,9 @@ object USEmployeePayroll extends USPayrollSystem {
   type P = USPayroll
 
   def processPayroll(p: USPayroll) = {
+
     p.processEmployees(Vector(Employee("a", 1)))
+
     Left("payroll processed successfully")
   }
 }
