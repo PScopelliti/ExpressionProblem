@@ -1,6 +1,6 @@
 package problem.operation.ext
 
-import problem.base.ext.{Employee, Payroll}
+import library.base.{Employee, Payroll}
 import problem.operation.Contractor
 
 trait ExtendedPayroll extends Payroll {

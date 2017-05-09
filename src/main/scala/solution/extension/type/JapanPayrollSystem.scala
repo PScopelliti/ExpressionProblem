@@ -1,6 +1,6 @@
 package solution.extension.`type`
 
-import solution.ext.PayrollSystem
+import library.ext.PayrollSystem
 
 //it will be easy to add a new Payroll type for Japan.
 trait JapanPayrollSystem extends PayrollSystem {

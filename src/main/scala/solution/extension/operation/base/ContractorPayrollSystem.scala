@@ -1,6 +1,6 @@
 package solution.extension.operation.base
 
-import solution.ext.PayrollSystem
+import library.ext.PayrollSystem
 
 
 trait ContractorPayrollSystem extends PayrollSystem {

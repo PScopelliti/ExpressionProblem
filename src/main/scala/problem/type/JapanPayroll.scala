@@ -1,6 +1,6 @@
 package problem.`type`
 
-import problem.base.ext.{Employee, Payroll}
+import library.base.{Employee, Payroll}
 
 class JapanPayroll extends Payroll {
 

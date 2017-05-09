@@ -1,6 +1,6 @@
 package solution
 
-import solution.ext.PayrollSystem
+import library.ext.PayrollSystem
 
 
 trait USPayrollSystem extends PayrollSystem {
