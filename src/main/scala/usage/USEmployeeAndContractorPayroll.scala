@@ -2,7 +2,7 @@ package usage
 
 import solution.extension.operation.USContractorPayrollSystem
 
-object USWithContractorPayrollInstance extends USContractorPayrollSystem {
+object USEmployeeAndContractorPayroll extends USContractorPayrollSystem {
 
   type P = USPayroll
 

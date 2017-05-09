@@ -2,7 +2,7 @@ package usage
 
 import solution.USPayrollSystem
 
-object USPayrollInstance extends USPayrollSystem {
+object USEmployeePayroll extends USPayrollSystem {
 
   type P = USPayroll
 
