@@ -4,7 +4,7 @@ trait PayrollVisitor {
 
   def visit(payroll: USPayrollVisitor): Either[String, Throwable]
 
-  def visit(payroll: CanadaPayrollVisitor): Either[String, Throwable]
+  def visit(payroll: JapanPayrollVisitor): Either[String, Throwable]
 
 }
 
@@ -14,7 +14,7 @@ class USPayrollVisitor {
 
 }
 
-class CanadaPayrollVisitor {
+class JapanPayrollVisitor {
 
   def accept(v: PayrollVisitor) = v.visit(this)
 
@@ -24,7 +24,7 @@ class EmployeePayrollVisitor extends PayrollVisitor {
 
   def visit(payroll: USPayrollVisitor): Either[String, Throwable] = Left("US payroll")
 
-  def visit(payroll: CanadaPayrollVisitor): Either[String, Throwable] = Left("Canada payroll")
+  def visit(payroll: JapanPayrollVisitor): Either[String, Throwable] = Left("Canada payroll")
 
 }
 
@@ -33,7 +33,7 @@ class ContractorPayrollVisitor extends PayrollVisitor {
 
   def visit(payroll: USPayrollVisitor): Either[String, Throwable] = Left("US contractor payroll")
 
-  def visit(payroll: CanadaPayrollVisitor): Either[String, Throwable] = Left("US contractor payroll")
+  def visit(payroll: JapanPayrollVisitor): Either[String, Throwable] = Left("US contractor payroll")
 
 }
 
