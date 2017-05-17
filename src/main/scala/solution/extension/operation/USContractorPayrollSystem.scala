@@ -1,6 +1,6 @@
 package solution.extension.operation
 
-import solution.USPayrollSystem
+import solution.extension.`type`.USPayrollSystem
 import solution.extension.operation.base.ContractorPayrollSystem
 
 trait USContractorPayrollSystem extends USPayrollSystem with ContractorPayrollSystem {

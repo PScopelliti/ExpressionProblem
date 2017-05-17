@@ -1,6 +1,6 @@
 package usage.us
 
-import solution.USPayrollSystem
+import solution.extension.`type`.USPayrollSystem
 
 object USEmployeePayroll extends USPayrollSystem {
 

@@ -1,4 +1,4 @@
-package solution
+package solution.extension.`type`
 
 import library.ext.PayrollSystem
 
